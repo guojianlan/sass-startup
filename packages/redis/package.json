@@ -1,0 +1,23 @@
+{
+  "name": "@sass-startup/redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "watch": "tsc --w",
+    "build": "rimraf dist && tsc"
+  },
+  "dependencies": {
+    "ioredis": "^5.4.1",
+    "json5": "^2.2.3"
+  },
+  "peerDependencies": {
+    "ioredis": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "typescript": "^5.1.3",
+    "rimraf": "^5.0.7"
+  },
+  "private": true
+}
